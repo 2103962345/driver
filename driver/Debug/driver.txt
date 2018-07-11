@@ -1,0 +1,11 @@
+Person(Человек) №1: a a a 23 
+Person(Человек) №2: d d d 34 
+Category B1:
+Year 2001
+You haven`t tricycle
+Category B:
+Year 2014
+You have car
+Auto: nissan blue 356 sport abc123 3000 5 4 
+Driver(Водитель) №1: Alex Sergeevna Bobylewa 18 b 0
+Auto: nissan blue 356 sport abc123 3000 5 4 

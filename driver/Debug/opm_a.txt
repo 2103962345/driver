@@ -1,0 +1,223 @@
+                                   Manual operator
+1 Purpose of the program
+Driver.exe program designed to create and work with objects of seven classes : base
+Person and derived from it "Driver ", included in his abstract class
+" Licence Tag", which are inherited from two classes: "B1" and "BE",
+ derived from them are class "B" (B), a friendly class " Auto".
+The Person class has fields FirstName , LastName , Otchestvo,
+ Age. For the Person class provides steps: creating objects , output to
+system output device contents of all data members of the class - created objects ,
+overload binary operator > (greater than ) , which compares to the value of the left operand -
+vozrasta with the value of the right operand object and displays a message , and also
+displays a message indicating whether you can get a driving license or not.
+Driver class has additional fields Code ( category code ) and Stage ( experience ) . For Class Driver
+ provided steps: creating objects , output to system output device content
+ all data members of the object class , overload the unary operator + +, which increases
+driving experience of the driver and his age by one year.
+The program also displays the system output device user demand and condition of the problem
+Filter this document.
+D.2 Programming environment
+To run the program requires a PC or an IBM PC software compatible with it ,
+ runs under MS-DOS (Windows 9x/200x).
+D.3 Implementation of the program
+Driver.exe executable and all the data files should be placed in the same directory. launch
+program is accomplished by calling the executable driver.exe ( in MS-DOS environment or Windows 9x/200x).
+After starting the program appears on the screen saver , which contains general information
+ on the subject of the course work and the author. In the bottom of the screen saver posted two messages :
+Press m to return to the main menu and l - to change the language .
+Clicking on l there is a change of language from English ( default) to the Russian . When you press the m
+ in the main menu is displayed :
+1. Zadachi.2 Description . Working with objects.3 . Help.4 . Exit.
+Selecting the main menu using the enter valid options ( 1, 2 , 3, 4 ) .
+When selecting the main menu option " description given problem area " (¹ 1) displays the contents of
+File condition_a.txt (condition_r.txt) with verbal formulation of the problem of course work . when choosing a
+in the main menu option " Working with objects " (¹ 2) to display a menu of objects : 1.User .
+2 . Driver.3 . Write objects in file.4 . Read all data from file.5 . Exit.
+If the user presses the digit nonexistent menu item , they will receive an error message.
+When you select " User " (¹ 1): User menu appears : 1.Create objects .
+2 . Display objects . 3 . Write in file .4 Read file objects . Read all the data from the file. 5 . Exit objects .
+If you select " Create objects"(¹ 1) the message " Do you have a driving license? (Y for yes):».
+If the button is pressed in , start creating objects classes Driver, driver's license and a car.
+ Otherwise , it will create an object of class Person.
+When you select " Show objects " (¹ 2) displayed on the screen using the print values ??of all
+ data members of the generated classes . If you select " Save data to file » (¹ 3) by
+overloaded operators output record will be made of all the objects in the file system . when choosing a
+ option " Read all data from a file » (¹ 4) will be displayed contents of the file . If you select
+ " Finish the job with objects » (¹ 5) or by pressing the esc will be carried back to the menu .
+If you select " Driver » (¹ 2) appears in the window menu of objects :
+1. Working with objects . 2 . Show information objects. 3 . Exit.
+When selecting " Working with objects " (¹ 1) will be invited to a few steps:
+1. Zoom driving experience of the driver (operator + +) 2 . Compare ages of people . 3 . Get the average age of people.
+4 . Name man.
+If you select " Zoom driving experience » (¹ 1) holds the + + operator ,
+ and displays a message about choosing a driver who need to increase the length of service .
+Automatically with increasing time , and increase the age of the driver.
+If you select " Compare ages man » (¹ 2) the user will be prompted serial numbers 2
+ people and using > operator will set a comparison of people as a result of mapping
+messages. When you select " Get average age " (¹ 3) on the screen will indicate the average age of all
+an object of class Person. When selecting " Name man "(¹ 4 ) when a person is
+derived surname, name and patronymic of the person. If you select "Exit » (¹ 5 ) is satisfied
+return to the menu objects. If you select " Show information about objects » (¹ 2) will be shown
+all data members currently active in the system.
+When selecting the main menu option " Help " (¹ 3) displays the contents of the file help_h_r.txt (help_h_a.txt).
+This menu contains the following items:
+1. Help . 2 . About ( Description) . 3 . On the author. 4 . Operator's Manual . 5 . Condition .
+When choosing the menu items will be displayed help text contained in the files.
+When selecting the main menu option "Exit " (¹ 4) terminates the program .
+When specifying an invalid number the main menu options offered alternative repeat .
+4 posts operator
+Below are the texts of messages issued during program execution driver.exe: window title ,
+ text messages and appropriate action operator.
+(1 )
+-------------------------------------
+Main Menu
+1. Screensaver 2 . Working with objects 3 . Help 4 . Exit
+Selection numbers 1 , 2 , 3 , 4
+Change language l
+exit esc
+-------------------------------------
+You need to enter the main menu options - a number from 1 to 4. (2)
+If you enter the main menu option number is less than 1 or greater than 4 , for example, 7, the following message appears:
+-------------------------------------
+You are mistaken. Press any key and then type the option number.
+-------------------------------------
+              Main Menu
+ 1. Screensaver 2 . Working with objects 3 . Help 4 . Exit
+Selection numbers 1 , 2 , 3 , 4
+Change language l
+exit esc
+You are mistaken. Press any key and then type the option number.
+--------------------------------------
+After pressing any key on the screen saver window is restored (1).
+(3 )
+If you enter the option number 1 in the main menu , it displays the text of the title page (Figure K.2 ) .
+If you enter the option number 1 in the main menu , but the file is not found condition_r.txt in the current directory , it displays the message :
+-------------------------
+File condition_r.txt ne otkrit
+Press any key ...
+-------------------------
+After pressing any key, the program exits .
+(4 )
+If you enter the option number 2 of the main menu , it displays a window with a menu :
+-------------------------
+                            menu
+1. User 2 . Driver 3 . Record object to a 4 . Read all the data from the file
+5 . Exit objects
+Enter a value of 1 , 2, 3 , 4, 5
+Change language l
+Back to menu m
+-------------------------
+(5 )
+If you enter the menu option number 1 to work with objects , it displays the user menu.
+-------------------------
+                             User Menu
+1. Create objects 2 . Display objects 3 . Record objects in the file 4 . Read all the data from the file
+5 . Exit objects
+Enter a value of 1 , 2, 3 , 4, 5
+Change language l
+Back to menu m
+-------------------------
+After pressing 1 will display a window with the object.
+(6 )
+----------------------------
+Do you have a driving license? (Y for yes):
+----------------------------
+(6) continue on and input values ??of the object depending on the selected key .
+(7 )
+If you enter the option number 2 - show objects , then the screen would display all the entered values ??and the names of their fields :
+-------------------------
+1
+Person:
+First Name: Alexandra
+Otchestvo: Sergeevna
+Last Name: Bobylewa
+Age: 18
+Press any key for continue ...
+-------------------------
+After pressing any key on the screen is restored window with objects ( 5).
+( 8)
+If you enter the menu option number 3 to work with objects , the following message appears :
+-------------------------
+fixation was made
+Press any key for continue ...
+-------------------------
+After pressing any key on the screen is restored window with objects ( 5).
+( 9)
+If you enter the menu option number 4 to work with objects , the following message appears :
+-------------------------
+driver.txt
+Person:
+Alexandra Sergeevna Bobylewa 18
+Press any key for continue ...
+ -------------------------
+( 10)
+If you enter the option number 5 user menu , you will return to the menu.
+If you enter the menu option number 2 , it will display a menu of objects
+-------------------------
+         Menu objects
+
+1. Working with objects . 2 . Show information object. 3 . Exit.
+Enter the value : 1 , 2, 3
+Change language l
+Back to menu m
+-------------------------
+ ( 11)
+If you enter the menu option number 1 to work with objects , the message is displayed ( menu operator overloading ) :
+-------------------------
+1.Overload stage ( + + ); 2.Compare ages ( < ); 3.Middle age . 4.F.I.O. human 5.Exit
+Press any key for continue ...
+-------------------------
+(12) After pressing any key of the items presented will display the message :
+------------------------
+Enter the number of people:
+------------------------
+or (13)
+------------------------
+Enter the number of the driver :
+------------------------
+After completing the restored menu objects ( 10). ( 14)
+-------------------------
+Enter the number of the driver : 1
+Driver:
+    First Name: Ivan
+    Otchestvo: I.
+    Last Name: Ivanov
+    Age: 34
+   Stage: 10
+   Code: B
+ Driver:
+    First Name: Ivan
+    Otchestvo: I.
+    Last Name: Ivanov
+    Age: 35
+   Stage: 11
+   Code: B
+Press any key for continue ...
+-------------------------
+After pressing any key on the menu screen is restored objects ( 10).
+( 15)
+If you enter the menu option number two objects to create objects of classes, the following message appears :
+-------------------------
+Press any key ...
+-------------------------
+After pressing any key on the screen is restored menu window objects ( 10).
+( 16)
+If you enter the option number 3 main menu , it displays the help menu :
+---------------------------
+                   the help menu
+ 1. Help 2 . About ( Description) 3 . About the author 4 . Operator
+Select 1,2,3,4
+Change language l
+Back to menu m
+----------------------------
+In deriving the corresponding points will be shown the contents of files responsible for displaying its contents.
+If you enter the option number 3 main menu , but the file menu_h_a.txt (menu_h_r.txt) not found in the current directory , it displays the message :
+( 17)
+-------------------------
+File _menu_h_a.txt ne otkrit
+Press any key ...
+-------------------------
+If you enter the option number 4 or esc -menu ( 1) , the program exits .
+
+Press m go to menu
+Press l to change language

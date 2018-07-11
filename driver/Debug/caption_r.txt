@@ -1,0 +1,26 @@
+                                            Условие
+
+Создать класс Person, содержащий следующие элементы:
+- поле «имя»  char* FirstName; 
+- поле «фамилия» char* LastName;
+- поле «отчество» char* Otchestvo;
+- поле «возраст» int Age;
+- метод получения  ФИО  char* GetFIO(); 
+- метод получения  возраста int GetAge(); 
+- конструктор с параметрами Person(char* FirstName, 
+char* LastName, char* Otchestvo,  int Age).
+Унаследовать от класса Person класс Driver (водитель),
+ содержащий элементы:
+- поле «стаж вождения»  int Stage; 
+- поле «код категории» char* Code;
+- метод получения информации о водителе 
+(ФИО+категория+стаж вождения) char* GetInfo();
+- метод «присвоить категорию» void SetCode(char* Code);
+- конструктор с параметрами Driver(char* FirstName,
+ char* LastName, char* Otchestvo, int Age,  char* Code,
+  int Stage);
+В классе Driver перегрузить оператор ++ 
+(унарный, оператор класса) – увеличить стаж вождения.
+
+Изменить язык l
+Вернуться в меню m

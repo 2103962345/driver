@@ -1,0 +1,15 @@
+Auto: b b 4 4 4 4 4 4 
+Driver(Водитель) №1: s s s 34 b 6
+Category B:
+Year 2000
+You have car
+Auto: jfkg dfhj 345 fhgj fhj55jf 1000000 3 3 
+Person(Человек) №1: dgfhds dhjdsfhkds ddfksd 14
+Auto: jfkg dfhj 345 fhgj fhj55jf 1000000 3 3 
+Driver(Водитель) №1: ddhfjkj dfjks fhjskd 34 b 10
+Auto: jfkg dfhj 345 fhgj fhj55jf 1000000 3 3 
+Auto: jfkg dfhj 345 fhgj fhj55jf 1000000 3 3 
+Auto: jfkg dfhj 345 fhgj fhj55jf 1000000 3 3 
+Auto: gf d 433 dgf 654df 3000 3 6 
+Auto: jfkg dfhj 345 fhgj fhj55jf 1000000 3 3 
+Auto: gf d 433 dgf 654df 3000 3 6 

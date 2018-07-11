@@ -1,0 +1,13 @@
+                                    Menu for User
+
+1. Create all objects.
+2. Show all objects.
+3. Write info to the file. 
+4. Show a file.
+5. End of working with objects. 
+
+Enter the number of modes 1,2,3,4,5
+
+
+Press m go to menu
+Press l to change language

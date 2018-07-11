@@ -1,0 +1,12 @@
+                        Menu
+
+1. User.
+2. Driver.
+3. Write info to the file. 
+4. Show a file.
+5. End of working with objects. 
+
+Enter the number of modes 1,2,3,4,5
+
+Press m go to menu
+Press l to change language

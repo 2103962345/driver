@@ -1,0 +1,10 @@
+                               Help
+ 
+
+   In the Help you can read all info about this program,
+find info about author, and program operator
+   In
+
+
+Press m go to menu
+Press l to change language

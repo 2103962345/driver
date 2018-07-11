@@ -1,0 +1,11 @@
+                               Main menu
+
+ 1.Title
+ 2.Work with objects
+ 3.Help
+ 4.Exit
+
+Enter the number of modes: 1, 2, 3, 4 
+
+Press esc to quit
+Press l to change language

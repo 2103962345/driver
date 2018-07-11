@@ -1,0 +1,53 @@
+                        About program
+1 Terms and functionality
+Driver.exe program was created in order to demonstrate knowledge,
+acquired trained in technology development
+object-oriented applications using C + + language .
+The program was based on the domain objects
+"Driver ." Her work is to demonstrate the implementation of the principles
+PLO and behavior management program can obektov.Dannaya
+function effectively on any personal computer with
+processor family Intel, or compatible recruitment
+instructions protsessorom.V also includes mandatory requirements
+operating system Windows 9x, XP, 7 , 200x, 32MB RAM (preferably
+64 MB) and 10 MB free disk space ( program temporary files +
+program in the amount of occupied 1.5 MB file system NTFS). for
+work with the project requires a specialist in the field of logistics ,
+or an ordinary user who wants to try himself as a
+Transport system administrator using the created program.
+2 Description of the logical structure
+Only system, there are seven classes (Person, Driver, LicenseTag, B, B1, BE,
+Auto), from which the four possible to form objects (Class
+LicenseTag, B1, BE can not produce objects ) . The user has the
+the ability to create , modify (including through the overloads
+operators) instances of classes , to save the state of a file,
+view it. Driver class inherits its field of class Person. class
+Auto is a friendly class Driver. Class LicenseTag - abstract
+class methods are inherited classes B1, BE, and their methods are inherited
+in turn, class B.
+3 used technical means
+When you create a program was used Visual Studio development environment
+2008 . Visual Studio provides a complete set of tools and services for
+creating various applications such as for scaffolding Microsoft, and for
+other platforms using the C + + language . The program was tested on
+Windows 7. Keyboard manipulator "mouse" type , device type
+" Standard monitor " with a resolution of 800x600 pixels.
+4 Calling and loading
+Running the program is accomplished by calling the executable
+driver.exe ( among MS-DOS or Windows 9x/200x). After starting the program
+appears on the screen saver , which contains general information
+on the subject of the course work and the author. For a successful application
+need all of the text files with records
+interface. Is necessary and the configuration file config.txt, in
+which stores the file path results.
+5 Input and output data
+All input values ??are validated . When an input error
+user can retry input
+which allows you to continue working . All entries are read interface
+of files. The program has two languages ??: Russian and English.
+Language change is possible anywhere in the program .
+The user at any point on the screen can display the contents of a file ,
+that will store the state of the system .
+
+Press m go to menu
+Press l to change language

@@ -1,0 +1,25 @@
+                                          Caption
+
+Create base class Person. Its should have:
+- field «First Name»  char* FirstName; 
+- field «Last Name» char* LastName;
+- field «Second Name» char* Otchestvo;
+- field «Age» int Age;
+- get method  FIO  char* GetFIO(); 
+- get method of age int GetAge(); 
+- constructor with parameters Person(char* FirstName, 
+char* LastName, char* Otchestvo,  int Age).
+Inherit from class Person class Driver, that have:
+- field «ñòàæ âîæäåíèÿ»  int Stage; 
+- field «êîä êàòåãîğèè» char* Code;
+- get method for driver (FIO+Category+code stage) 
+char* GetInfo();
+- set method  for category void SetCode(char* Code);
+- constructor with parameters Driver(char* FirstName,
+ char* LastName, char* Otchestvo, int Age,  char* Code,
+  int Stage);
+In class Driver overload operator ++ 
+(unary, operator of class) – increase stage of driving.
+
+Change language l
+For continue press m

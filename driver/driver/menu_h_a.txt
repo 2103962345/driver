@@ -1,0 +1,11 @@
+                         Help menu
+ 
+ 1. Description
+ 2. About program 
+ 3. About author
+ 4. Operator manual
+
+Enter the number of modes 1,2,3,4
+
+Press m go to menu
+Press l to change language

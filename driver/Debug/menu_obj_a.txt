@@ -1,0 +1,11 @@
+                        Menu of objects 
+
+1. Work with object.
+2. Show an objects. 
+3. End of working with objects. 
+
+Enter the number of modes 1,2,3
+
+
+Press m go to menu
+Press l to change language
